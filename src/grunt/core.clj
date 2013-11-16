@@ -1,4 +1,4 @@
-(ns sql2liquibase.core)
+(ns grunt.core)
 
 (defn foo
   "I don't do a whole lot."
