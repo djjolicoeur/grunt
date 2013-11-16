@@ -49,7 +49,6 @@
 
 (defn do-new-delim
   [word body]
-  (println ":word " word " :body " (class body) ":nd-transform " @nd-transform)
   (let [new-parser (mk-parser word)
         new-parse (mk-new-parse new-parser)]
     (first (@nd-transform (new-parse body)))))
